@@ -3,23 +3,32 @@
 ##  Project Overview
 This project builds a Machine Learning model to predict whether a loan application will be Approved (Y) or Rejected (N) based on applicant demographic and financial information. The project follows a complete end-to-end Machine Learning pipeline including Exploratory Data Analysis (EDA), Data Cleaning & Preprocessing, Statistical Hypothesis Testing, Feature Engineering & Selection, Model Training & Evaluation, Final Model Selection, and a Deployment-ready Python pipeline.
 
-##  Project Structure
+## 📁 Project Structure
+
 Loan_Prediction/
+│
 ├── data/
 │   ├── loan_data.csv
 │   └── loan_data_cleaned.csv
+│
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_hypothesis_testing.ipynb
 │   ├── 04_feature_engineering_modeling.ipynb
 │   └── 05_model_evaluation.ipynb
+│
 ├── models/
 │   └── final_model.pkl
-├── src/
-│   └── loan_prediction_pipeline.py
+│
 ├── reports/
 │   └── Loan_Prediction_ML_Report.pdf
+│
+├── src/
+│   └── loan_prediction_pipeline.py
+│
+├── .gitignore
+├── LICENSE
 └── README.md
 
 ##  Dataset Description
